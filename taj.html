@@ -1,0 +1,838 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Taj Mahal</title>
+
+
+	<style type="text/css">
+
+
+
+#road1
+{
+
+stroke-dasharray: 3000px;
+	stroke-dashoffset: 3000px;	
+	animation: line-anim 5s ease forwards;
+	
+}
+
+#pillar1left
+{
+
+	stroke-dasharray: 3000px;
+	stroke-dashoffset: 3000px;	
+	animation: line-anim 5s ease forwards;
+	animation-delay: 0.1s;
+	
+}
+
+#top1
+{
+	stroke-dasharray: 3000px;
+	stroke-dashoffset: 3000px;	
+	animation: line-anim 5s ease forwards;
+	animation-delay: 0.4s;
+
+}
+#pillartop1
+{
+	stroke-dasharray: 3000px;
+	stroke-dashoffset: 3000px;	
+	animation: line-anim 5s ease forwards;
+	animation-delay: 0.4s;
+
+}
+#pillar1right{
+  stroke-dasharray: 250;
+  stroke-dashoffset: 250;
+  animation: back 1s ease forwards;
+  animation-delay: 0.4s;
+}
+
+#top1line
+{
+	stroke-dasharray: 3000px;
+	stroke-dashoffset: 3000px;	
+	animation: line-anim 6s ease forwards;
+	animation-delay: 0.4s;
+
+}
+#line1
+{
+	stroke-dasharray: 3000px;
+	stroke-dashoffset: 3000px;	
+	animation: line-anim 4s ease forwards;
+	animation-delay: 0.43s;
+}
+#line2
+{
+stroke-dasharray: 3000px;
+	stroke-dashoffset: 3000px;	
+	animation: line-anim  4s ease forwards;
+	animation-delay: 0.50s;	
+}
+
+#line3
+{
+	stroke-dasharray: 3000px;
+	stroke-dashoffset: 3000px;	
+	animation: line-anim 4s ease forwards;
+	animation-delay: 0.80s;	
+
+}
+
+#road2
+{
+	stroke-dasharray: 3000px;
+	stroke-dashoffset: 3000px;	
+	animation: line-anim 4s ease forwards;
+	animation-delay: 0.95s;	
+
+}
+
+#pillar2left
+{
+	stroke-dasharray: 3000px;
+	stroke-dashoffset: 3000px;	
+	animation: line-anim 4s ease forwards;
+	animation-delay: .99s;	
+
+
+}
+#pillar2right
+{
+	stroke-dasharray: 250;
+  	stroke-dashoffset: 250;
+	animation: back 1s ease forwards;
+	animation-delay: 1.2s;	
+}
+#top2
+{
+
+	stroke-dasharray: 3000px;
+	stroke-dashoffset: 3000px;	
+	animation: line-anim 4s ease forwards;
+	animation-delay: 1.2s;	
+
+}
+#top2line
+{
+	stroke-dasharray: 3000px;
+	stroke-dashoffset: 3000px;	
+	animation: line-anim 4s ease forwards;
+	animation-delay: 1.1s;	
+}
+#line4
+{
+	stroke-dasharray: 3000px;
+	stroke-dashoffset: 3000px;	
+	animation: line-anim 4s ease forwards;
+	animation-delay: 1.2s;	
+}
+#line5
+{
+stroke-dasharray: 3000px;
+	stroke-dashoffset: 3000px;	
+	animation: line-anim 4s ease forwards;
+	animation-delay: 1.4s;		
+}
+
+#line6
+{
+stroke-dasharray: 3000px;
+	stroke-dashoffset: 3000px;	
+	animation: line-anim 4s ease forwards;
+	animation-delay: 1.5s;		
+}
+
+
+#road3
+{
+	stroke-dasharray: 3000px;
+	stroke-dashoffset: 3000px;	
+	animation: line-anim 4s ease forwards;
+	animation-delay: 1.75s;
+
+}
+#box1line1
+{
+
+	stroke-dasharray: 3000px;
+	stroke-dashoffset: 3000px;	
+	animation: line-anim 4s ease forwards;
+	animation-delay: 1.8s;
+}
+
+#box1line2
+{
+	stroke-dasharray: 3000px;
+	stroke-dashoffset: 3000px;	
+	animation: line-anim 4s ease forwards;
+	animation-delay: 1.998s;	
+}
+#box1line3
+{
+	stroke-dasharray: 3000px;
+	stroke-dashoffset: 3000px;	
+	animation: line-anim 4s ease forwards;
+	animation-delay: 2.2s;
+}
+#box1line4
+{	
+	stroke-dasharray: 3000px;
+	stroke-dashoffset: 3000px;	
+	animation: line-anim 4s ease forwards;
+	animation-delay: 2.55s;
+}
+#box1line5
+{
+	stroke-dasharray: 3000px;
+	stroke-dashoffset: 3000px;	
+	animation: line-anim 4s ease forwards;
+	animation-delay: 2.55s;	
+}
+#box1line6
+{
+	stroke-dasharray: 3000px;
+	stroke-dashoffset: 3000px;	
+	animation: line-anim 4s ease forwards;
+	animation-delay: 2.8s;	
+}
+#box1line7
+{
+	stroke-dasharray: 3000px;
+	stroke-dashoffset: 3000px;	
+	animation: line-anim 4s ease forwards;
+	animation-delay: 3.1s;	
+}
+#box1line8
+{
+	stroke-dasharray: 3000px;
+	stroke-dashoffset: 3000px;	
+	animation: line-anim 4s ease forwards;
+	animation-delay: 4s;	
+}
+#box1line9
+{
+	stroke-dasharray: 3000px;
+	stroke-dashoffset: 3000px;	
+	animation: line-anim 4s ease forwards;
+	animation-delay: 4.3s;	
+}
+
+#box1window1
+{
+	stroke-dasharray: 3000px;
+	stroke-dashoffset: 3000px;	
+	animation: line-anim 4s ease forwards;
+	animation-delay: 3.5s;
+}
+
+#box1window2
+{
+	stroke-dasharray: 3000px;
+	stroke-dashoffset: 3000px;	
+	animation: line-anim 4s ease forwards;
+	animation-delay: 3.7s;
+}
+#box1window3
+{
+	stroke-dasharray: 3000px;
+	stroke-dashoffset: 3000px;	
+	animation: line-anim 4s ease forwards;
+	animation-delay: 4.7s;
+}
+#box1window4
+{
+	stroke-dasharray: 3000px;
+	stroke-dashoffset: 3000px;	
+	animation: line-anim 4s ease forwards;
+	animation-delay: 4.9s;
+}
+
+
+#box1window1line1
+{
+stroke-dasharray: 3000px;
+	stroke-dashoffset: 3000px;	
+	animation: line-anim 4s ease forwards;
+	animation-delay: 3.5s;	
+}
+
+#box1window1line2
+{
+stroke-dasharray: 3000px;
+	stroke-dashoffset: 3000px;	
+	animation: line-anim 4s ease forwards;
+	animation-delay: 3.7s;	
+}
+#box1window1line3
+{
+stroke-dasharray: 3000px;
+	stroke-dashoffset: 3000px;	
+	animation: line-anim 4s ease forwards;
+	animation-delay: 4.7s;	
+}
+#box1window1line4
+{
+stroke-dasharray: 3000px;
+	stroke-dashoffset: 3000px;	
+	animation: line-anim 4s ease forwards;
+	animation-delay: 4.9s;	
+}
+
+#box2line1
+{
+	stroke-dasharray: 3000px;
+	stroke-dashoffset: 3000px;	
+	animation: line-anim 4s ease forwards;
+	animation-delay: 5.3s;	
+}
+
+#box2top
+{
+stroke-dasharray: 3000px;
+	stroke-dashoffset: 3000px;	
+	animation: line-anim 3s ease forwards;
+	animation-delay: 5.4s;	
+}
+
+#box2line2
+{
+stroke-dasharray: 250;
+  	stroke-dashoffset: 250;
+	animation: back 1.1s ease forwards;
+	animation-delay: 5.4s;
+}
+#box2line3
+{
+stroke-dasharray: 700;
+  	stroke-dashoffset: 700;
+	animation: back 1.2s ease forwards;
+	animation-delay: 5.95s;
+}
+
+#box2line4
+{
+	stroke-dasharray: 700;
+  	stroke-dashoffset: 700;
+	animation: back 0.8s ease forwards;
+	animation-delay: 5.8s;	
+}
+
+#box2topline
+{
+	stroke-dasharray: 700;
+  	stroke-dashoffset: 700;
+	animation: back 1.5s ease forwards;
+	animation-delay: 5.4s;	
+}
+#box2line5
+{
+	stroke-dasharray: 2000px;
+	stroke-dashoffset: 2000px;	
+	animation: line-anim 4s ease forwards;
+	animation-delay: 6.6s;	
+}
+
+#box2line6
+{
+	stroke-dasharray: 2000px;
+	stroke-dashoffset: 2000px;	
+	animation: line-anim 4s ease forwards;
+	animation-delay: 7.4s;		
+}
+#box2line7
+{
+	stroke-dasharray: 2000px;
+	stroke-dashoffset: 2000px;	
+	animation: line-anim 4s ease forwards;
+	animation-delay: 6.9s;	
+}
+#box2line8
+{
+	stroke-dasharray: 2000px;
+	stroke-dashoffset: 2000px;	
+	animation: line-anim 4s ease forwards;
+	animation-delay: 7.2s;		
+}
+#box2door
+{
+	stroke-dasharray: 2000px;
+	stroke-dashoffset: 2000px;	
+	animation: line-anim 4s ease forwards;
+	animation-delay: 7.5s;	
+}
+#box2window1
+{
+	stroke-dasharray: 2000px;
+	stroke-dashoffset: 2000px;	
+	animation: line-anim 4s ease forwards;
+	animation-delay: 8s;	
+}
+#box2window1line
+{
+	stroke-dasharray: 2000px;
+	stroke-dashoffset: 2000px;	
+	animation: line-anim 4s ease forwards;
+	animation-delay: 8s;	
+}
+#box2window2
+{
+	stroke-dasharray: 2000px;
+	stroke-dashoffset: 2000px;	
+	animation: line-anim 4s ease forwards;
+	animation-delay: 8.3s;	
+}
+#box2window2line
+{
+	stroke-dasharray: 2000px;
+	stroke-dashoffset: 2000px;	
+	animation: line-anim 4s ease forwards;
+	animation-delay: 8.3s;	
+}
+
+#box3line1
+{
+	stroke-dasharray: 2000px;
+	stroke-dashoffset: 2000px;	
+	animation: line-anim 4s ease forwards;
+	animation-delay: 8.7s;	
+}
+#box3line2
+{
+	stroke-dasharray: 250;
+  	stroke-dashoffset: 250;
+	animation: back 1s ease forwards;
+	animation-delay: 8.9s;
+}
+#box3line3
+{
+	stroke-dasharray: 3000;
+  	stroke-dashoffset: 3000;
+	animation: back 3s ease forwards;
+	animation-delay: 9.5s;	
+}
+#box3line4
+{
+	stroke-dasharray: 3000;
+  	stroke-dashoffset: 3000;
+	animation: back  3s ease forwards;
+	animation-delay: 9.5s;	
+}
+#box3line5
+{
+	stroke-dasharray: 3000;
+  	stroke-dashoffset: 3000;
+	animation: back 4s ease forwards;
+	animation-delay: 9.7s;	
+}
+#box3line6
+{
+	stroke-dasharray: 3000;
+  	stroke-dashoffset: 3000;
+	animation: back 4s ease forwards;
+	animation-delay: 9.9s;	
+}
+#box3window1
+{
+	stroke-dasharray: 3000;
+  	stroke-dashoffset: 3000;
+	animation: back 4s ease forwards;
+	animation-delay: 10.1s;	
+}
+#box3window1line
+{
+	stroke-dasharray: 3000;
+  	stroke-dashoffset: 3000;
+	animation: back 4s ease forwards;
+	animation-delay: 10.1s;	
+}
+#box3window2
+{
+	stroke-dasharray: 3000;
+  	stroke-dashoffset: 3000;
+	animation: back 4s ease forwards;
+	animation-delay: 10.3s;	
+}
+#box3window2line
+{
+	stroke-dasharray: 3000;
+  	stroke-dashoffset: 3000;
+	animation: back 4s ease forwards;
+	animation-delay: 10.3s;	
+}
+#box3line7
+{
+	stroke-dasharray: 3000;
+  	stroke-dashoffset: 3000;
+	animation: back 4s ease forwards;
+	animation-delay: 10.5s;	
+}
+#box3line8
+{
+	stroke-dasharray: 3000;
+  	stroke-dashoffset: 3000;
+	animation: back 4s ease forwards;
+	animation-delay: 10.8s;	
+}
+#box3window3
+{
+	stroke-dasharray: 3000;
+  	stroke-dashoffset: 3000;
+	animation: back 4s ease forwards;
+	animation-delay: 11.2s;	
+}
+#box3window3line
+{
+	stroke-dasharray: 3000;
+  	stroke-dashoffset: 3000;
+	animation: back 4s ease forwards;
+	animation-delay: 11.2s;	
+}
+#box3window4
+{
+	stroke-dasharray: 3000;
+  	stroke-dashoffset: 3000;
+	animation: back 4s ease forwards;
+	animation-delay: 11.5s;	
+}
+#box3window4line
+{
+	stroke-dasharray: 3000;
+  	stroke-dashoffset: 3000;
+	animation: back 4s ease forwards;
+	animation-delay: 11.5s;	
+}
+#road4
+{
+	stroke-dasharray: 3000;
+  	stroke-dashoffset: 3000;
+	animation: back 4s ease forwards;
+	animation-delay: 11.8s;	
+}
+#pillar3left
+{
+	stroke-dasharray: 3000;
+  	stroke-dashoffset: 3000;
+	animation: back 4s ease forwards;
+	animation-delay: 11.86s;	
+}
+#pillar3c
+{
+	stroke-dasharray: 3000;
+  	stroke-dashoffset: 3000;
+	animation: back 4s ease forwards;
+	animation-delay: 12.2s;	
+}
+#pillar3top
+{
+	stroke-dasharray: 3000;
+  	stroke-dashoffset: 3000;
+	animation: back 4s ease forwards;
+	animation-delay: 12.2s;	
+}
+#pillar3right
+{
+	stroke-dasharray: 250;
+  	stroke-dashoffset: 250;
+	animation: back 1s ease forwards;
+	animation-delay: 12.3s;	
+}
+#road5
+{
+stroke-dasharray: 3000;
+  	stroke-dashoffset: 3000;
+	animation: back 4s ease forwards;
+	animation-delay: 12.9s;	
+}
+#pillar3line1
+{
+	stroke-dasharray: 3000;
+  	stroke-dashoffset: 3000;
+	animation: back 4s ease forwards;
+	animation-delay: 12.5s;	
+}
+#pillar3line2
+{
+	stroke-dasharray: 3000;
+  	stroke-dashoffset: 3000;
+	animation: back 4s ease forwards;
+	animation-delay: 12.7s;	
+}
+#pillar3line3
+{
+	stroke-dasharray: 3000;
+  	stroke-dashoffset: 3000;
+	animation: back 4s ease forwards;
+	animation-delay: 12.5s;		
+}
+#pillartopline
+{
+	stroke-dasharray: 3000;
+  	stroke-dashoffset: 3000;
+	animation: back 4s ease forwards;
+	animation-delay: 12.2s;	
+}
+#pillar4left
+{
+	stroke-dasharray: 3000;
+  	stroke-dashoffset: 3000;
+	animation: back 4s ease forwards;
+	animation-delay: 12.9s;	
+}
+#pillar4right
+{
+	stroke-dasharray: 250;
+  	stroke-dashoffset: 250;
+	animation: back 1s ease forwards;
+	animation-delay: 13.15s;	
+}
+#pillar4topc
+{
+	stroke-dasharray: 3000;
+  	stroke-dashoffset: 3000;
+	animation: back 4s ease forwards;
+	animation-delay: 13.2s;
+}
+#pillar4top
+{
+	stroke-dasharray: 3000;
+  	stroke-dashoffset: 3000;
+	animation: back 4s ease forwards;
+	animation-delay: 13.2s;	
+}	
+#pillar4topline
+{
+	stroke-dasharray: 3000;
+  	stroke-dashoffset: 3000;
+	animation: back 4s ease forwards;
+	animation-delay: 13.3s;
+}
+#pillar4topcline
+{
+	stroke-dasharray: 3000;
+  	stroke-dashoffset: 3000;
+	animation: back 4s ease forwards;
+	animation-delay: 13.2s;		
+}
+#pillar4line1
+{
+stroke-dasharray: 3000;
+  	stroke-dashoffset: 3000;
+	animation: back 4s ease forwards;
+	animation-delay: 13.5s;
+}
+
+#pillar4line2
+{
+	stroke-dasharray: 3000;
+  	stroke-dashoffset: 3000;
+	animation: back 3s ease forwards;
+	animation-delay: 13.6s;
+}
+
+#road6
+{
+stroke-dasharray: 3000;
+  	stroke-dashoffset: 3000;
+	animation: back 5s ease forwards;
+	animation-delay: 13.7s;	
+}
+@keyframes back {
+  
+
+  to
+  {
+  	stroke-dashoffset: 550;	
+  }
+}
+
+
+@keyframes line-anim
+{
+	to{
+		stroke-dashoffset:0; 
+	}
+
+}
+
+
+
+	</style>
+</head>
+<body>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+<svg width="1364" height="196" viewBox="0 0 1364 196" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+
+
+<g>
+<path d="M0 194H50" stroke="black" stroke-width="2" id="road1"/>
+<path d="M89 193H109.055" stroke="black" stroke-width="2" id="road2"/>
+<path d="M143.56 193.273H160.272" stroke="black" stroke-width="2" id="road3"/>
+<path d="M413 194H429.712" stroke="black" stroke-width="2" id="road4"/>
+<path d="M462.076 194.164H482.966" stroke="black" stroke-width="2" id="road5"/>
+<path d="M522 194H1364" stroke="black" stroke-width="2" id="road6"/>
+</g>
+
+<g id="pillar1">
+<mask id="path-72-inside-2" fill="white">
+<path d="M54.852 36.9451C54.8125 32.5173 56.2495 28.2576 58.847 25.1033C61.4444 21.9489 64.9895 20.1581 68.7024 20.125C72.4153 20.0918 75.9918 21.819 78.6452 24.9265C81.2985 28.034 82.8114 32.2673 82.8509 36.6951L68.8515 36.8201L54.852 36.9451Z" id="pillar1top"/>
+</mask>
+<path d="M54.852 36.9451C54.8125 32.5173 56.2495 28.2576 58.847 25.1033C61.4444 21.9489 64.9895 20.1581 68.7024 20.125C72.4153 20.0918 75.9918 21.819 78.6452 24.9265C81.2985 28.034 82.8114 32.2673 82.8509 36.6951L68.8515 36.8201L54.852 36.9451Z" stroke="black" stroke-width="4" mask="url(#path-72-inside-2)" id="pillartop1"/>
+<path d="M68 21V10" stroke="black" stroke-width="3" id="top1line"/>
+<path d="M78 36H59C56.7909 36 55 37.7909 55 40C55 42.2091 56.7909 44 59 44H78C80.2091 44 82 42.2091 82 40C82 37.7909 80.2091 36 78 36Z" stroke="black" stroke-width="2" id="top1"/>
+<path d="M55 40H82" stroke="black" id="line1"/>
+<path d="M49.5555 194.5L52.5555 136.755C40.0556 129.935 52.5555 125.752 52.5555 125.388L55.5556 85.3761C53.3493 83.8834 44.5555 80.8293 55.5556 75.3731L58.5555 44" stroke="black" stroke-width="2" id="pillar1left"/>
+<path d="M89.3462 194.045L86.2308 136.475C99.2115 129.675 86.2308 125.505 86.2308 125.142L83.1153 85.2511C85.4065 83.7629 94.5385 80.718 83.1153 75.2783L80 44" stroke="black" stroke-width="2" id="pillar1right"/>
+<path d="M55.5 75H82.5" stroke="black" stroke-width="2" id="line2"/>
+<path d="M55.5 86H82.5" stroke="black" stroke-width="2" id="line2"/>
+<path d="M53.5 137H85.5" stroke="black" stroke-width="2" id="line3"/>
+<path d="M53.5 125H85.5" stroke="black" stroke-width="2" id="line3"/>
+</g>
+
+<g id="pillar2">
+<mask id="path-75-inside-5" fill="white">
+<path d="M114.149 78.9183C114.11 74.4905 115.389 70.2323 117.705 67.0804C120.021 63.9285 123.184 62.1412 126.5 62.1116C129.815 62.082 133.01 63.8126 135.382 66.9226C137.754 70.0326 139.109 74.2673 139.148 78.6951L126.649 78.8067L114.149 78.9183Z"/>
+</mask>
+<path d="M114.149 78.9183C114.11 74.4905 115.389 70.2323 117.705 67.0804C120.021 63.9285 123.184 62.1412 126.5 62.1116C129.815 62.082 133.01 63.8126 135.382 66.9226C137.754 70.0326 139.109 74.2673 139.148 78.6951L126.649 78.8067L114.149 78.9183Z" stroke="black" stroke-width="4" mask="url(#path-75-inside-5)" id="top2"/>
+<path d="M116 81H137.5" stroke="black" id="top2line"/>
+<path d="M126 63V54" stroke="black" stroke-width="3" id="line4"/>
+<path d="M135 78H118C116.343 78 115 79.3431 115 81C115 82.6569 116.343 84 118 84H135C136.657 84 138 82.6569 138 81C138 79.3431 136.657 78 135 78Z" stroke="black" stroke-width="2" id="top2"/>
+<path d="M115.178 106.658H137.978" stroke="black" stroke-width="2" id="line5"/>
+<path d="M115.178 114.698H137.978" stroke="black" stroke-width="2" id="line5"/>
+<path d="M113.489 151.973H140.511" stroke="black" stroke-width="2" id="line6"/>
+<path d="M113.489 143.203H140.511" stroke="black" stroke-width="2" id="line6"/>
+<path d="M110.158 194L112.691 151.795C102.136 146.81 112.691 143.752 112.691 143.486L115.225 114.242C113.362 113.151 105.936 110.918 115.225 106.931L117.758 84" stroke="black" stroke-width="2" id="pillar2left"/>
+<path d="M143.759 193.668L141.128 151.59C152.09 146.62 141.128 143.572 141.128 143.307L138.497 114.15C140.432 113.063 148.144 110.837 138.497 106.861L135.867 84" stroke="black" stroke-width="2" id="pillar2right"/>
+</g>
+
+<g id="pillar3">
+<mask id="path-74-inside-4" fill="white">
+<path d="M433.149 77.9183C433.109 73.4905 434.388 69.2323 436.705 66.0804C439.021 62.9285 442.184 61.1412 445.499 61.1116C448.814 61.082 452.009 62.8126 454.382 65.9226C456.754 69.0326 458.108 73.2673 458.148 77.6951L445.648 77.8067L433.149 77.9183Z"/>
+</mask>
+<path d="M433.149 77.9183C433.109 73.4905 434.388 69.2323 436.705 66.0804C439.021 62.9285 442.184 61.1412 445.499 61.1116C448.814 61.082 452.009 62.8126 454.382 65.9226C456.754 69.0326 458.108 73.2673 458.148 77.6951L445.648 77.8067L433.149 77.9183Z" stroke="black" stroke-width="4" mask="url(#path-74-inside-4)" id="pillar3top"/>
+<path d="M435 80H456.5" stroke="black" id="pillar3line3"/>
+<path d="M446 61V52" stroke="black" stroke-width="3" id="pillartopline"/>
+<path d="M454 77H437C435.343 77 434 78.3431 434 80C434 81.6569 435.343 83 437 83H454C455.657 83 457 81.6569 457 80C457 78.3431 455.657 77 454 77Z" stroke="black" stroke-width="2" id="pillar3c"/>
+<path d="M434.178 106.658H456.978" stroke="black" stroke-width="2" id="pillar3line1"/>
+<path d="M434.178 114.698H456.978" stroke="black" stroke-width="2" id="pillar3line1"/>
+<path d="M432.489 151.973H459.511" stroke="black" stroke-width="2" id="pillar3line2"/>
+<path d="M432.489 143.203H459.511" stroke="black" stroke-width="2" id="pillar3line2"/>
+<path d="M429.158 194L431.691 151.795C421.136 146.81 431.691 143.752 431.691 143.486L434.225 114.242C432.362 113.151 424.936 110.918 434.225 106.931L436.758 84" stroke="black" stroke-width="2" id="pillar3left"/>
+<path d="M462.759 193.668L460.128 151.59C471.09 146.62 460.128 143.572 460.128 143.307L457.497 114.15C459.432 113.063 467.144 110.837 457.497 106.861L454.867 84" stroke="black" stroke-width="2" id="pillar3right"/>
+</g>
+
+<g id="pillar4">
+<mask id="path-73-inside-3" fill="white">
+<path d="M487.149 35.9451C487.11 31.5173 488.547 27.2576 491.144 24.1033C493.741 20.9489 497.287 19.1581 500.999 19.125C504.712 19.0918 508.289 20.819 510.942 23.9265C513.596 27.034 515.108 31.2673 515.148 35.6951L501.149 35.8201L487.149 35.9451Z"/>
+</mask>
+<path d="M487.149 35.9451C487.11 31.5173 488.547 27.2576 491.144 24.1033C493.741 20.9489 497.287 19.1581 500.999 19.125C504.712 19.0918 508.289 20.819 510.942 23.9265C513.596 27.034 515.108 31.2673 515.148 35.6951L501.149 35.8201L487.149 35.9451Z" stroke="black" stroke-width="4" mask="url(#path-73-inside-3)" id="pillar4top"/>
+<path d="M488 39H515" stroke="black" id="pillar4topline"/>
+<path d="M501 21V10" stroke="black" stroke-width="3" id="pillar4topcline"/>
+<path d="M511 35H492C489.791 35 488 36.7909 488 39C488 41.2091 489.791 43 492 43H511C513.209 43 515 41.2091 515 39C515 36.7909 513.209 35 511 35Z" stroke="black" stroke-width="2" id="pillar4topc"/>
+<path d="M482.556 194.5L485.556 136.755C473.056 129.935 485.556 125.752 485.556 125.388L488.556 85.3761C486.349 83.8834 477.556 80.8293 488.556 75.3731L491.556 44" stroke="black" stroke-width="2" id="pillar4left"/>
+<path d="M522.346 194.045L519.231 136.475C532.212 129.675 519.231 125.505 519.231 125.142L516.115 85.2511C518.406 83.7629 527.538 80.718 516.115 75.2783L513 44" stroke="black" stroke-width="2" id="pillar4right"/>
+<path d="M488.5 75H515.5" stroke="black" stroke-width="2" id="pillar4line1"/>
+<path d="M488.5 86H515.5" stroke="black" stroke-width="2" id="pillar4line1"/>
+<path d="M486.5 137H518.5" stroke="black" stroke-width="2" id="pillar4line2"/>
+<path d="M486.5 125H518.5" stroke="black" stroke-width="2" id="pillar4line2"/>
+</g>
+
+
+
+
+
+<g id="box1">
+<path d="M160 193.5V90" stroke="black" stroke-width="2" id="box1line1"/>
+<path d="M159 89H239" stroke="black" stroke-width="2" id="box1line2"/>
+<path d="M238.547 89.0527V191.046" stroke="black" stroke-width="2" id="box1line3"/>
+<path d="M200.945 88.162V190.155" stroke="black" stroke-width="2" id="box1line4"/>
+<path d="M160 97.9604H239.383" stroke="black" stroke-width="2" id="box1line5"/>
+
+<path d="M173.654 133.591V122.653V115.569C173.654 115.569 178.204 104.01 186.739 115.569V122.653V133.591" stroke="black" stroke-width="2" id="box1window1"/>
+<path d="M173.37 133.012H186.455" stroke="black" stroke-width="2" id="box1window1line1"/>
+
+<path d="M173.654 190.601V179.662V172.578C173.654 172.578 178.204 161.019 186.739 172.578V179.662V190.601" stroke="black" stroke-width="2" id="box1window2"/>
+<path d="M173.37 190.022H186.455" stroke="black" stroke-width="2" id="box1window1line2"/>
+
+<path d="M212.928 132.701V121.762V114.678C212.928 114.678 217.477 103.119 226.013 114.678V121.762V132.701" stroke="black" stroke-width="2" id="box1window3"/>
+<path d="M212.643 132.122H225.728" stroke="black" stroke-width="2" id="box1window1line3"/>
+
+
+<path d="M213.763 189.71V178.771V171.687C213.763 171.687 218.313 160.128 226.848 171.687V178.771V189.71" stroke="black" stroke-width="2" id="box1window4"/>
+<path d="M213.479 189.131H226.564" stroke="black" stroke-width="2" id="box1window1line4"/>
+
+<path d="M163.5 191.5V101H198V191.5" stroke="black" id="box1line6"/>
+<path d="M166.5 192V104H195.5V192" stroke="black" id="box1line7"/>
+<path d="M203.5 191.5V101H236.5V191.5" stroke="black" id="box1line8"/>
+<path d="M205.5 192V104H234.5V192" stroke="black" id="box1line9"/>
+
+
+</g>
+
+<g id="box2">
+<path d="M238 91V64" stroke="black" stroke-width="2" id="box2line1"/>
+<path d="M336 90V63" stroke="black" stroke-width="2" id="box2line2"/>
+<mask id="path-71-inside-1" fill="white">
+<path d="M237.553 64.7114C237.433 51.3161 242.534 38.4228 251.732 28.8681C260.93 19.3133 273.472 13.8796 286.6 13.7624C299.728 13.6452 312.365 18.8541 321.733 28.2431C331.1 37.6321 336.429 50.4322 336.549 63.8275L287.051 64.2694L237.553 64.7114Z"/>
+</mask>
+<path d="M237.553 64.7114C237.433 51.3161 242.534 38.4228 251.732 28.8681C260.93 19.3133 273.472 13.8796 286.6 13.7624C299.728 13.6452 312.365 18.8541 321.733 28.2431C331.1 37.6321 336.429 50.4322 336.549 63.8275L287.051 64.2694L237.553 64.7114Z" stroke="black" stroke-width="4" mask="url(#path-71-inside-1)" id="box2top"/>
+<path d="M287 15V0" stroke="black" stroke-width="3" id="box2topline"/>
+<path d="M336 88.162V190.155" stroke="black" stroke-width="2" id="box2line3"/>
+
+<path d="M243 190V80H331V190" stroke="black" id="box2line5"/>
+<path d="M254 190V89H321V190" stroke="black" id="box2line6"/>
+<path d="M247 190V83H327V190" stroke="black" id="box2line7"/>
+<path d="M251 190V86H324V190" stroke="black" id="box2line8"/>
+
+<path d="M257 25H317" stroke="black" stroke-width="2" id="box2line4"/>
+
+<path d="M268.111 192.382V145.28V114.775C268.111 114.775 282.416 65.0019 309.255 114.775V145.28V192.382" stroke="black" stroke-width="2" id="box2door"/>
+
+<path d="M281.447 133.591V122.653V115.569C281.447 115.569 285.997 104.01 294.532 115.569V122.653V133.591" stroke="black" stroke-width="2" id="box2window1"/>
+<path d="M281.163 133.012H294.248" stroke="black" stroke-width="2" id="box2window1line"/>
+<path d="M281.447 190.601V179.662V172.578C281.447 172.578 285.997 161.019 294.532 172.578V179.662V190.601" stroke="black" stroke-width="2" id="box2window2"/>
+<path d="M281.163 190.022H294.248" stroke="black" stroke-width="2" id="box2window2line"/>
+<path d="M238.547 76.5819H335.059" stroke="black" stroke-width="2" id="box2line4"/>
+
+</g>
+
+
+<g id="box3">
+<path d="M335 89H415" stroke="black" stroke-width="2" id="box3line1"/>
+<path d="M414 193.5V90" stroke="black" stroke-width="2"  id="box3line2"/>
+<path d="M375.586 88.162V190.155" stroke="black" stroke-width="2" id="box3line3"/>
+<path d="M335.806 97.9604H415.188" stroke="black" stroke-width="2" id="box3line4"/>
+
+<path d="M349.131 133.591V122.653V115.569C349.131 115.569 353.681 104.01 362.217 115.569V122.653V133.591" stroke="black" stroke-width="2" id="box3window1"/>
+<path d="M348.847 133.012H361.932" stroke="black" stroke-width="2" id="box3window1line"/>
+<path d="M349.131 189.71V178.771V171.687C349.131 171.687 353.681 160.128 362.217 171.687V178.771V189.71" stroke="black" stroke-width="2" id="box3window2"/>
+<path d="M348.847 189.131H361.932" stroke="black" stroke-width="2" id="box3window2line"/>
+<path d="M390.076 133.591V122.653V115.569C390.076 115.569 394.626 104.01 403.161 115.569V122.653V133.591" stroke="black" stroke-width="2" id="box3window3"/>
+<path d="M389.792 133.012H402.877" stroke="black" stroke-width="2" id="box3window3line"/>
+<path d="M390.076 189.71V178.771V171.687C390.076 171.687 394.626 160.128 403.161 171.687V178.771V189.71" stroke="black" stroke-width="2" id="box3window4"/>
+<path d="M389.792 189.131H402.877" stroke="black" stroke-width="2" id="box3window4line"/>
+
+<path d="M338.5 191.5V101H372.5V191.5" stroke="black" id="box3line5"/>
+<path d="M341.5 192V104H369.5V192" stroke="black" id="box3line6"/>
+<path d="M378.5 191.5V101H410.5V191.5" stroke="black" id="box3line7"/>
+<path d="M381.5 192V104H407.5V192" stroke="black" id="box3line8"/>
+
+
+</g>
+
+
+
+
+
+
+</svg>
+
+</body>
+</html>
